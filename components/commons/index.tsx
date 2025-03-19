@@ -16,5 +16,5 @@ export const components = {
   faq_v2_faq: dynamic(() => import("./faqV2FAQ")),
   // faq_v2_f_a_q: dynamic(() => import("./faqV2FAQ")),
   support_v2_support: dynamic(() => import("./supportV2Support")),
-  privacy_policy_privacy _policy: dynamic(() => import("./privacyPolicyPrivacy Policy")),
+  privacy_policy_privacy_policy: dynamic(() => import("./privacyPolicyPrivacy Policy")),
 };
