@@ -14,4 +14,6 @@ export const components = {
   title_header: dynamic(() => import('./titleHeader')),
   title_header_gradient: dynamic(() => import('./titleHeaderGradient')),
   faq_v2_faq: dynamic(() => import("./faqV2FAQ")),
+  // faq_v2_f_a_q: dynamic(() => import("./faqV2FAQ")),
+  support_v2_support: dynamic(() => import("./supportV2Support")),
 };
