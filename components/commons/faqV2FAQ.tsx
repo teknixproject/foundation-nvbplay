@@ -16,59 +16,54 @@ interface FaqV2Props {
 
 const faqCollape = [
   {
-    question: '1. What is TON Booking Shareholders?',
+    question: '1. NVBPlay là gì?',
     answer:
-      'TON Booking Shareholders is an investment platform that allows users to earn daily rewards by investing in the ecosystem using cryptocurrencies like USDT, TBK, and WAB. The platform also offers referral bonuses for growing your community.',
+      '- NVBPlay là nền tảng thương mại điện tử hàng đầu chuyên cung cấp thời trang và dụng cụ thể thao chất lượng cao, đặc biệt là cầu lông và pickleball. Chúng tôi mang đến trải nghiệm mua sắm nhanh chóng, an toàn, cùng hệ thống tin tức về xu hướng thể thao và cộng đồng.',
   },
   {
-    question: '2. How do I start investing?',
-    answer: `Step-by-step Guide:<br>
-      - Choose an investment package from the available options (100 TON, 500 - TON, 1000 TON, or custom).<br>
-      - Connect your wallet.<br>
-      - Select your preferred payment method (USDT, TBK, WAB) and confirm the transaction.`,
+    question: '2. Làm sao để bắt đầu dùng NVBPlay?',
+    answer: `Hướng dẫn từng bước:<br>
+             - Tải NVBPlay từ App Store hoặc CH Play.<br>
+             - Đăng ký bằng email hoặc số điện thoại, hoặc đăng nhập qua Google/Facebook.<br>
+             - Bắt đầu khám phá sản phẩm hoặc đọc tin tức thể thao ngay trên app.`,
   },
   {
-    question: '3. How can I invest in TON Booking Shareholders?',
+    question: '3. Làm sao để mua hàng trên NVBPlay?',
     answer:
-      'Visit the How to Invest section for detailed steps on connecting your wallet and selecting an investment package.',
+      '- Vào mục "Cửa hàng", chọn sản phẩm (như vợt cầu lông, giày thể thao), thêm vào giỏ hàng, sau đó nhập địa chỉ giao hàng và thanh toán. Bạn sẽ nhận xác nhận đơn hàng ngay lập tức.',
   },
   {
-    question: '4. What are daily rewards?',
+    question: '4. NVBPlay có những tính năng gì?',
+    answer: `NVBPlay cung cấ:<br>
+             - Mua sắm dụng cụ và thời trang thể thao từ các thương hiệu hàng đầu.<br>
+             - Tin tức thể thao với bài viết chuyên sâu về cầu lông, pickleball, đánh giá sản phẩm và hướng dẫn kỹ thuật.<br>
+             - Ưu đãi độc quyền và giao hàng nhanh chóng.<br>
+             - Kết nối với cộng đồng người yêu thể thao trên toàn thế giới.`,
+  },
+  {
+    question: '5. Làm sao để đọc tin tức trên NVBPlay?',
+    answer: `Vào mục "Tin tức" trong app, bạn sẽ thấy các bài viết mới nhất về xu hướng thể thao, đánh giá sản phẩm và tin tức cộng đồng cầu lông, pickleball. Chỉ cần nhấn để đọc ngay.`,
+  },
+  {
+    question: '6. Phải làm gì nếu thanh toán không thành công?',
+    answer: `- Kiểm tra kết nối internet và số dư tài khoản/thẻ của bạn.<br>
+      - Thử lại hoặc chọn phương thức thanh toán khác (ví dụ: thẻ tín dụng, ví điện tử).<br>
+      - Nếu vẫn không được, liên hệ hỗ trợ qua email support@nvbplay.vn.`,
+  },
+  {
+    question: '7. Dữ liệu cá nhân của tôi có an toàn không?',
     answer:
-      'Daily rewards are calculated based on the total amount you have invested in TON Booking Shareholders. The more you invest, the higher your daily rewards. You can track your rewards and see your earnings grow in the Activity section.',
+      '- Có, NVBPlay sử dụng mã hóa tiên tiến để bảo vệ thông tin cá nhân và giao dịch của bạn, đảm bảo an toàn tuyệt đối.',
   },
   {
-    question: '5. How are referral rewards calculated?',
-    answer: `Referral rewards are calculated through two bonus structures:<br>
-      - Direct Bonus: 10% of the investment made by someone you referred.<br>
-      - Indirect Bonus: 5% of the investment made by a partner of your referred person.`,
-  },
-  {
-    question: '6. How do I connect my wallet?',
-    answer: `Step 1: Click on Settings.<br>
-      Step 2: Click "Connect Wallet" to link your wallet.<br>
-      Step 3: Click on the Tonkeeper Wallet icon and approve the connection.<br>
-      Step 4: The system displays a pop-up notification confirming successful connection.`,
-  },
-  {
-    question: '7. What payment methods are supported?',
+    question: '8. Làm sao để theo dõi đơn hàng?',
     answer:
-      'You can invest using USDT, TBK, and WAB. All payments are secured by blockchain technology.',
+      '- Vào mục "Đơn hàng" trong app, chọn đơn hàng bạn muốn kiểm tra. App sẽ hiển thị trạng thái cập nhật từ lúc đặt hàng đến khi giao đến tay bạn.',
   },
   {
-    question: '8. Is my payment secure?',
+    question: '9. Tôi có thể đổi trả hàng không?',
     answer:
-      'Yes, all transactions are secured by the TON Blockchain, ensuring transparency and security for your investments.',
-  },
-  {
-    question: '9. What should I do if my payment fails?',
-    answer:
-      '- Double-check the payment details and ensure your wallet has sufficient funds.<br> - If the issue persists, contact our support team for further assistance.',
-  },
-  {
-    question: '10. How can I view my payment history?',
-    answer:
-      'Visit the Activities section in the bot to review your past transactions and track your investments.',
+      '- Có, bạn có thể đổi trả trong vòng 7 ngày nếu sản phẩm lỗi hoặc không đúng mô tả. Vào mục "Hỗ trợ" để gửi yêu cầu và làm theo hướng dẫn.',
   },
 ];
 
@@ -82,12 +77,13 @@ const FaqV2 = ({ data, style }: FaqV2Props) => {
   };
 
   return (
-    <div className="h-auto flex w-full items-center justify-center">
+    <div className=" h-[100vh] flex w-full items-center justify-center pt-[120px] 2xl:pt-0">
       <div className="flex flex-col w-full max-w-[960px] px-4 lg:px-0">
-        <div className="flex flex-col gap-6 items-center">
+        <div className="flex flex-col gap-2 2xl:gap-6 items-center">
           <h2 className="text-base lg:text-[42px] heading-1 text-center flex items-center gap-2 tracking-[-1.4px]">
-            {isMobile ? 'FAQ' : 'Frequently Asked Questions'}
+            NVBPlay
           </h2>
+          <h4 className="text-base lg:text-[24px]">Cần hỗ trợ hoặc có thắc mắc?</h4>
         </div>
         <div className="w-full">
           <Accordion
@@ -96,23 +92,30 @@ const FaqV2 = ({ data, style }: FaqV2Props) => {
             className="w-full py-[36px] max-lg:py-[16px] flex flex-col gap-3 max-lg:gap-[24px]"
             defaultValue="0"
           >
-            {faqCollape.map((item, index) => (
-              <AccordionItem
-                value={index.toString()}
-                key={`faq-${index}`}
-                className="bg-white/[0.08] rounded-md lg:rounded-3xl "
-              >
-                <AccordionTrigger className="px-[42px] max-lg:px-[16px]">
-                  <p className="text-heading3 max-lg:text-[12px]">{item.question}</p>
-                </AccordionTrigger>
-                <AccordionContent className="px-[42px] pb-6 max-lg:pb-[12px] max-lg:px-[12px]">
-                  <div
-                    dangerouslySetInnerHTML={{ __html: item.answer }}
-                    className="text-paragraph1 text-left text-description5 max-lg:text-[13px]"
-                  ></div>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
+            {faqCollape.map((item, index) => {
+              const updatedAnswer = item.answer.replace(
+                /support@chaincapmarket.com/g,
+                `<span style="font-weight: 400; color: #eb2a2a;">support@chaincapmarket.com</span>`
+              );
+
+              return (
+                <AccordionItem
+                  value={index.toString()}
+                  key={`faq-${index}`}
+                  className="bg-white/[0.08] rounded-md lg:rounded-3xl "
+                >
+                  <AccordionTrigger className="px-[42px] max-lg:px-[16px]">
+                    <p className="text-heading3 max-lg:text-[12px]">{item.question}</p>
+                  </AccordionTrigger>
+                  <AccordionContent className="px-[42px] pb-6 max-lg:pb-[12px] max-lg:px-[12px]">
+                    <div
+                      dangerouslySetInnerHTML={{ __html: updatedAnswer }}
+                      className="text-paragraph1 text-left text-description5 max-lg:text-[13px]"
+                    ></div>
+                  </AccordionContent>
+                </AccordionItem>
+              );
+            })}
           </Accordion>
         </div>
       </div>
